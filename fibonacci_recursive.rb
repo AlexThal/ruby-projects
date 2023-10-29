@@ -1,6 +1,12 @@
 # https://en.wikipedia.org/wiki/Fibonacci_sequence
-def fibonacci_recursive(n)
-  return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
+def fibonacci_recursive(int)
+  return 0 if int == 0
+
+  if int > 2
+    fibonacci_recursive(int - 1) + fibonacci_recursive(int - 2)
+  else
+    1
+  end
 end
 
 puts fibonacci_recursive(4) == 3
