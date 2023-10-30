@@ -4,3 +4,5 @@
 def greet(user)
   nil
 end
+
+# Make a program that uses the greet function forever and just keeps greeting everyone
